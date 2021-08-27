@@ -1,0 +1,23 @@
+package team_learn;
+
+public class Quiz05_fan {
+public static void main(String[] args) {
+	Quiz05_funtion fan = new Quiz05_funtion();
+	int power = 0;
+	while(true)
+	{
+		
+	System.out.println("1.전원on 2.전원off");
+	fan.fanPower();
+	if(power == 1)
+	{
+		
+	
+	System.out.println("1.정지 2.미풍 3.약풍 4. 강풍");
+	fan.fan_Wind_adj();
+	System.out.println("1.상하회전 2. 좌우회전");
+	fan.fan_spin();
+	}
+	}
+}
+}

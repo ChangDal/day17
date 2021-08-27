@@ -1,0 +1,65 @@
+package day_Quiz01;
+
+import java.util.Scanner;
+
+public  class TV {
+	
+}
+
+public class Quiz01 {
+	
+	
+public static void main(String[] args) {
+	
+	Scanner input = new Scanner(System.in);
+	int select = 0;
+	boolean adjust = true;
+	int remot = 0;
+	int num = 7;
+	
+	while(adjust)
+	{
+	
+		
+	System.out.println("TV를 조정하세요");
+	System.out.println("1.전원 ON 2.전원 OFF");
+	
+	select = input.nextInt();
+	switch(select)
+	{
+	case 1:
+		System.out.println("Tv 전원을 켰습니다");
+		System.out.println("현재 채널은(초기): "+num);
+		System.out.println("1.채널 위로 2. 채널아래로 3.채널 입력 4.TV OFF");
+		remot = input.nextInt();
+		
+		switch(remot)
+		{
+		case 1:
+		num++;
+		System.out.println("현재 채널은"+num);
+		continue;
+		case 2:
+		num--;	
+		System.out.println("현재 채널은"+num);
+		
+		case 3:
+		num = input.nextInt();
+		System.out.println("현재 채널은"+num);
+		
+		case 4:
+			System.out.println("TV 전원을 끕니다");
+			break;
+		}
+		
+	case 2:
+		
+		System.out.println("TV를 끄고 공부합니다.");
+		adjust = false;
+		break;
+	}
+	
+	
+	}
+}
+}

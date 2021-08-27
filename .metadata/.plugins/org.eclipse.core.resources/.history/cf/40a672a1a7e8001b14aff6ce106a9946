@@ -1,0 +1,27 @@
+package day06;
+
+import java.util.Scanner;
+
+public class Quiz05 {
+
+public static void main(String[] args)
+{
+	Scanner input = new Scanner(System.in);
+	
+	System.out.println("문자를 입력");
+	String revers = null;
+	revers = input.next();
+	
+	
+	for(int i = revers.length(); i>0; i--)
+	{
+		//세번째 숫자가 제일 처음에
+		//두번째 숫자는 그대로
+		//첫번쨰 숫자는 맨 뒤로
+		
+	System.out.println(revers.charAt(i));
+		
+	}
+}
+}
+

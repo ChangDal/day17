@@ -1,0 +1,56 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Count {
+
+	int num1,num2,num3;
+	
+	 
+	 ArrayList<Integer> InputNum(ArrayList<Integer> aList) {
+		
+	
+		
+		 Scanner input = new Scanner(System.in);
+			
+			System.out.println("세 수를 입력하세요");
+			num1 = input.nextInt();
+			num2 = input.nextInt();
+			num3 = input.nextInt();
+			
+		aList.add(num1);
+		aList.add(num2);
+		aList.add(num3);
+		
+	
+		
+		return aList;
+		
+		
+		
+	}
+	 ArrayList<Integer>  OutputNum(ArrayList<Integer> aList)
+	{
+		
+		 HashMap map = new HashMap();
+		for(int i = 0; i<10; i++)
+		{
+			map.put(i, 0);
+		}
+		String multiply = Integer.toString(num1*num2*num3);
+		
+		for(int i = 0; i<multiply.length(); i++)
+		{
+		
+			//0번째 숫자가 무엇인지 알아야한다.
+			multiply.charAt(i);
+			map.put(multiply, (map.get(multiply+1)));
+			
+		}
+		aList.addAll(map.values());
+		
+		return aList;
+	}
+}

@@ -1,0 +1,14 @@
+package day15;
+
+public class Constructor03 {
+
+	private int age;
+	
+	public Constructor03(int age) {
+		this.age = age;
+	}
+
+	public void setAge(int age) {this.age = age;}
+	
+	public int getAge() {return age;}
+}

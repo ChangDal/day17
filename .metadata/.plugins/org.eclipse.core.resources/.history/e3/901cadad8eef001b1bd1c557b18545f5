@@ -1,0 +1,8 @@
+package day13;
+
+public class Quiz01 {
+public static void main(String[] args) {
+	
+	System.out.println("1.로그인 2.가 입 3.로그아웃");
+}
+}

@@ -1,0 +1,38 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Count {
+
+	int num1,num2,num3;
+	 Count(int num1,int num2, int num3){	
+		num1 = num1;
+		num2 = num2;
+		num3 = num3;	
+	}
+	 
+	 ArrayList<Integer> InputNum(ArrayList<Integer> aList) {
+		
+	
+		
+		
+		
+	
+		
+		return aList;
+		
+		
+		
+	}
+	 ArrayList<Integer>  OutputNum(ArrayList<Integer> aList)
+	{
+		int multiply = 0;
+		
+		
+		multiply = num1*num2*num3;
+		
+		
+		return aList;
+	}
+}

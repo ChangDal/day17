@@ -1,0 +1,25 @@
+package day07;
+
+import java.util.Scanner;
+
+public class Ex03 {
+public static void main(String[] args)
+{
+  Scanner input = new Scanner(System.in);
+  System.out.println("1.걷기 2.대중교통 3.자차 4.종료 : ");
+
+  int selcet = input.nextInt();
+ while(true)
+ {
+	
+  switch(selcet) {
+  case 1: System.out.println("걷기");break;
+  case 2: System.out.println("대중교통");break;
+  case 3: System.out.println("자차");break;
+  case 4: System.out.println("종료");
+	      System.exit(0);
+  }
+  
+  }
+}
+}

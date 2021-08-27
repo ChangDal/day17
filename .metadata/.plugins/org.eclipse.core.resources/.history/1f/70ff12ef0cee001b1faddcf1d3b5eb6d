@@ -1,0 +1,21 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Team01 {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		Count count = new Count(input.nextInt(),input.nextInt(),input.nextInt());
+		
+		ArrayList<Integer> aList = new ArrayList<Integer>();
+		
+		System.out.println("세 수를 입력하세요");
+		aList = count.InputNum(aList);
+		
+		aList = count.OutputNum(aList);
+	}
+}

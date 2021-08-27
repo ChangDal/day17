@@ -1,0 +1,18 @@
+package day11;
+
+import java.util.ArrayList;
+
+public class Team01 {
+
+	public static void main(String[] args) {
+		
+		Count count = new Count ();
+		
+		ArrayList<Integer> aList = new ArrayList<Integer>();
+		
+		
+		aList = Count
+		
+		aList = Count.OutputNum(aList);
+	}
+}

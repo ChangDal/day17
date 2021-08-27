@@ -1,0 +1,24 @@
+package day07;
+
+import java.util.Scanner;
+
+public class Ex02 {
+public static void main(String[] args )
+{
+ Scanner input = new Scanner(System.in);
+ int i, temp;
+ System.out.println("¼ö ÀÔ·Â : ");
+ i = input.nextInt();
+ while(true)
+ {
+	 temp = i%10;
+	 i = i/10;
+	 System.out.print((temp+" "));
+	
+	 if(i==0)
+	 {
+		 break;
+	 }
+ }
+}
+}

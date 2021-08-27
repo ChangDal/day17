@@ -1,0 +1,10 @@
+package day13;
+
+import java.util.Scanner;
+
+public class Ex03_private {
+	
+	String name;
+	int age;
+
+}

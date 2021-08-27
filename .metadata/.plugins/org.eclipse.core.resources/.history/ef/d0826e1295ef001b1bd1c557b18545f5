@@ -1,0 +1,45 @@
+package day13;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Quiz01_private {
+  private String ID,PW;
+  Scanner sc = new Scanner(System.in);
+	
+	public void login() {
+		
+		System.out.print("아이디 입력 : ");
+		String ID = sc.next();
+		
+		System.out.print("비밀번호 입력 : ");
+		String PW = sc.next();
+		
+		if (ID.equals(null)&&PW.equals(null))
+		{
+			System.out.println();
+		}
+		else if (ID.equals(this.ID) && PW.equals(this.PW) )
+		{
+			System.out.println("로그인 성공");
+		}
+		else System.out.println("로그인 실패");
+		}
+	public void join() {
+		ArrayList<Integer> alist = new ArrayList<Integer>();
+		
+		System.out.print("아이디 입력 : ");
+		String ID = sc.next();
+		alist.add(setID(ID));
+		System.out.print("비밀번호 입력 : ");
+		String PW = sc.next();
+		setPW(PW);
+	
+	}
+	public void setID(String ID){this.ID = ID;}
+	public void setPW(String PW){this.PW = PW;}
+	
+	public String getID(){return this.ID;}
+	public String getPW(){return this.PW;}
+	
+}

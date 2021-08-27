@@ -1,0 +1,23 @@
+package day11;
+
+public class Team02 {
+public static void main(String[] args) {
+	
+	int arr[][] = null;
+	
+	
+	
+	
+	for(int i = 0; i<4; i++)
+	{
+		int []Arr = arr[i];
+		
+		for(int j = 0; j<4; j++)
+		{
+			
+			
+		
+		}
+	}
+}
+}

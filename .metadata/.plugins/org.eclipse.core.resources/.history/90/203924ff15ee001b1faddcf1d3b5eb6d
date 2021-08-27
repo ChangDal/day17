@@ -1,0 +1,21 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Team01 {
+
+	public static void main(String[] args) {
+		
+		Count count = new Count();
+		
+		ArrayList<Integer> aList = new ArrayList<Integer>();
+		
+		count.InputNum();
+		
+		aList = count.OutputNum();
+		
+		System.out.println(aList);
+		
+	}
+}

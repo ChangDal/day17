@@ -1,0 +1,28 @@
+package team_learn;
+
+import java.util.Scanner;
+
+public class Quiz03_humidifier {
+
+	public static void main(String[] args) {
+		
+		Quiz03_funtion humidifier = new Quiz03_funtion();
+		
+		Scanner input= new Scanner(System.in);
+		int select = 0;
+		
+		System.out.println("1.전원켜기 2.아무것도 안하기 ");
+		
+		select = input.nextInt();
+		
+		if(select == 1)
+		{
+			System.out.println("전원 on");
+		}
+		else if(select == 2)
+		{
+			System.out.println("아무일도 일어나지않음");
+		}
+		
+	}
+}

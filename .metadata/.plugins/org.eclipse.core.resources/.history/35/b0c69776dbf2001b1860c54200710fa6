@@ -1,0 +1,19 @@
+package team_learn;
+
+public class Quiz03_funtion {
+
+	int select =0;
+	
+	
+public void humidifier_Power()
+{
+	if(select == 1)
+	{
+		System.out.println("전원 on");
+	}
+	else if(select == 2)
+	{
+		System.out.println("아무일도 일어나지않음");
+	}
+}
+}

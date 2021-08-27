@@ -1,0 +1,18 @@
+package day07;
+
+import java.util.Scanner;
+
+public class Quiz03 {
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+	
+	int money;
+	
+	System.out.print("요금을 투입 하세요 >>>");
+	money = input.nextInt();
+	
+	}
+	
+	
+}

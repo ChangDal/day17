@@ -1,0 +1,12 @@
+package day13;
+
+public class Ex02_private {
+	private int num;
+	public void printNum() {
+		System.out.println(num);
+	}
+	public void setting(int n)
+	{
+		num = n ;
+	}
+}

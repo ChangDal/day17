@@ -1,0 +1,19 @@
+package team_learn;
+
+import java.util.ArrayList;
+
+public class Quiz06_login {
+public static void main(String[] args) {
+	
+Quiz06_funtion login = new Quiz06_funtion();
+	
+	ArrayList alist = new ArrayList();
+	
+	System.out.println("1.로그인 2. 가 입 3.로그아웃");
+	System.out.println(">>>");
+	
+	
+	
+	
+}
+}

@@ -1,0 +1,22 @@
+package day11;
+
+import java.util.ArrayList;
+
+public class Quiz01 {
+
+	public static void main(String[] args) {
+	
+		ArrayList num = new ArrayList();
+		
+		
+		
+		for(int i = 1; i<= 45; i++)
+		{
+			num.add(i);
+		}
+		System.out.println(num);
+		
+		
+	}
+	
+}

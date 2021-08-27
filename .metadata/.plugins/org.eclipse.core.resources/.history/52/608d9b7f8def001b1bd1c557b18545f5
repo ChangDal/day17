@@ -1,0 +1,12 @@
+package day13;
+
+public class Ex04 {
+
+		public static void main(String[] args) {
+			int k=100,e=90,m=80;
+			Ex04_private ex = new Ex04_private();
+			
+			ex.getsum();
+			System.out.println(sum);
+		}
+}

@@ -1,0 +1,13 @@
+package day12;
+
+public class Quiz01 {
+public static void main(String[] args) {
+	
+	Quiz01_function updown = new Quiz01_function();
+	
+	System.out.println("=== UP & Down Game ===");
+	System.out.println("/t 1.게임시작");
+	System.out.println("/t 2.게임전적");
+	System.out.println("/t 3.게임종료");
+}
+}

@@ -1,0 +1,33 @@
+package day10;
+
+import java.util.HashMap;
+import java.util.Scanner;
+
+public class Quiz01_Big {
+public HashMap inputNum() {
+	Scanner input = new Scanner(System.in);
+	int num1,num2;
+	System.out.println("첫 수 입력");
+	num1 = input.nextInt();
+	
+	System.out.println("두번째 수 입력");
+	num2 = input.nextInt();
+	
+	HashMap map =  new HashMap();
+	map.put("n1", num1);
+	map.put("n2", num2);
+	
+	return map;
+
+	
+}
+
+public void outputNum(HashMap map)
+{
+	
+	System.out.println(10 > 20);
+
+
+
+}
+}

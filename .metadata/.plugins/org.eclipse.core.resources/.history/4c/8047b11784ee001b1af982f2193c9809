@@ -1,0 +1,22 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Team03 {
+public static void main(String[] args) {
+	
+	
+	Team03_baseball baseball = new Team03_baseball();
+	
+	ArrayList<Integer> aList = new ArrayList<Integer>();
+	ArrayList<Integer> aList1 = new ArrayList<Integer>();
+	
+	aList = baseball.InputNum();
+	
+	System.out.println(aList);
+	System.out.println(aList1);
+	
+	int computer1 = (int)(Math.random()*9+1);
+}
+}

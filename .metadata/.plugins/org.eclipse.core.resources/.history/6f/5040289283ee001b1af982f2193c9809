@@ -1,0 +1,20 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Team03 {
+public static void main(String[] args) {
+	
+	
+	Team03_baseball baseball = new Team03_baseball();
+	
+	ArrayList<Integer> aList = new ArrayList<Integer>();
+	
+	baseball.InputNum();
+	
+	System.out.println(aList);
+	
+	
+}
+}

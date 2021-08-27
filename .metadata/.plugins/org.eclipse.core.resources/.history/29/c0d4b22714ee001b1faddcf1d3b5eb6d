@@ -1,0 +1,52 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Count {
+
+	int num1,num2,num3;
+	
+	 
+	 void  InputNum() {
+		
+		 Scanner input = new Scanner(System.in);
+			
+			System.out.println("세 수를 입력하세요");
+			num1 = input.nextInt();
+			num2 = input.nextInt();
+			num3 = input.nextInt();
+
+	}
+	 
+	 
+	 ArrayList<Integer>  OutputNum()
+	{
+		int select = 0;
+		String multiply = Integer.toString(num1*num2*num3);
+		for(int i = 0; i<multiply.length(); i++)
+		{
+		
+			//0번째 숫자가 무엇인지 알아야한다.
+			multiply.charAt(i);
+			
+			switch(select){
+				case 0:
+					
+				case 1:
+				case 2:
+				case 3:
+				case 4:
+				case 5:
+				case 6:
+				case 7:
+				case 8:
+				case 9:
+				
+			}
+			
+		}
+	
+		return aList;
+	}
+}

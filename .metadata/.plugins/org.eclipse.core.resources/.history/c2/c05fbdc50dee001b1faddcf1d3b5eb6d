@@ -1,0 +1,43 @@
+package day11;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Count {
+
+	int num1,num2,num3;
+	
+	 
+	 ArrayList<Integer> InputNum(ArrayList<Integer> aList) {
+		
+	
+		
+		 Scanner input = new Scanner(System.in);
+			
+			System.out.println("세 수를 입력하세요");
+			num1 = input.nextInt();
+			num2 = input.nextInt();
+			num3 = input.nextInt();
+			
+		aList.add(num1);
+		aList.add(num2);
+		aList.add(num3);
+		
+	
+		
+		return aList;
+		
+		
+		
+	}
+	 ArrayList<Integer>  OutputNum(ArrayList<Integer> aList)
+	{
+		int multiply = 0;
+		
+		
+		multiply = num1*num2*num3;
+		
+		
+		return aList;
+	}
+}

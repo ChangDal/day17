@@ -1,0 +1,27 @@
+package team_learn;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Quiz06_funtion {
+String ID,PW;  
+Scanner input = new Scanner(System.in);
+ArrayList<String> alist = new ArrayList();
+public void ID_PW_login() {
+	
+	System.out.println("아이디 입력");
+	SetID(input.next());
+	alist = GetID();
+	System.out.println("비밀번호 입력");
+}
+
+
+public void SetID(String ID) {	this.ID = ID;}
+
+public String GetID() {return this.ID;}
+
+public void SetPW(String PW) {this.PW = PW;}
+
+public String GetPW() {return this.PW;}
+	
+}

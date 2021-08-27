@@ -1,0 +1,14 @@
+package day12;
+
+public class Quiz01_function {
+
+	
+	void rand() {
+		int computerrand = (int)(Math.random()*100+1);
+		
+	}
+	
+	void MaxRecord() {
+		
+	}
+}

@@ -1,0 +1,25 @@
+package day11;
+
+public class Team02 {
+public static void main(String[] args) {
+	
+	int[][] num = new int[4][4];
+	
+	int rand = (int) (Math.random()*10+1);
+	num[0][0] = rand;
+	
+	
+	
+	
+	
+	for(int i = 0; i<4; i++)
+	{
+		for(int j = 0; j<4; j++)
+		{
+			num[i][j] = rand;
+			
+			System.out.println(num[i][j]);
+		}
+	}
+}
+}
